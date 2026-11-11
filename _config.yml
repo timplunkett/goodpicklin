@@ -28,7 +28,6 @@ defaults:
       path: ""
     values:
       layout: default
-      image: /assets/share.png
 
 # Exclude from processing (otherwise these get served on the live site).
 exclude:

@@ -35,8 +35,6 @@ hard-coding the URL.
 | `levels.md`, `assets/levels.js`, `assets/levels.css` | Skill level quiz at `/levels` (persona 1) |
 | `sign.html`, `assets/sign.css`, `assets/qr-*.svg` | Printable court sign at `/sign` (noindex, not linked) |
 | `assets/main.css` | Site-wide styles (plain CSS, light + dark via CSS variables) |
-| `assets/share.png` | Default Open Graph / social share image (1200×630) |
-| `favicon.svg`, `apple-touch-icon.png` | Icons |
 | `404.html` | Not-found page |
 
 ## Conventions
