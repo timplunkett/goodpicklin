@@ -2,9 +2,8 @@
   "name": "goodpicklin",
   "private": true,
   "scripts": {
-    "prepare": "git config core.hooksPath .githooks",
-    "lint": "npm run lint:eslint",
-    "lint:fix": "npm run lint:eslint -- --fix"
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
