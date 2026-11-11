@@ -1,0 +1,23 @@
+{
+  "name": "goodpicklin",
+  "private": true,
+  "scripts": {
+    "prepare": "git config core.hooksPath .githooks",
+    "lint": "npm run lint:eslint",
+    "lint:fix": "npm run lint:eslint -- --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/timplunkett/goodpicklin.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/timplunkett/goodpicklin/issues"
+  },
+  "homepage": "https://github.com/timplunkett/goodpicklin#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^17.7.0"
+  }
+}

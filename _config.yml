@@ -1,0 +1,50 @@
+# Site settings for goodpicklin.com.
+#
+# This file is NOT reloaded automatically by `bundle exec jekyll serve` --
+# restart the server after editing it.
+
+title: Good Picklin’
+tagline: Saturday social open play
+description: >- # this means to ignore newlines until the next key
+  A facilitated pickleball open play for all levels. Hosted games, rotating
+  partners, and a fun, friendly crowd.
+lang: en_US
+baseurl: ""
+url: "https://goodpicklin.com"
+
+# Sign-ups live on a third-party site we don't control. It is the source of
+# truth for dates, times, location and price -- don't copy those onto this site.
+signup_url: "https://book.ballers-us.com/programs/good-picklin-social-open-play"
+
+# No theme: layouts live in _layouts/.
+theme: null
+
+# GitHub Pages reads plugins from here, not from the Gemfile.
+plugins:
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
+      image: /assets/share.png
+
+# Exclude from processing (otherwise these get served on the live site).
+exclude:
+  - .bundle/
+  - .env
+  - .github/
+  - .jekyll-cache/
+  - .sass-cache/
+  - AGENTS.md
+  - CLAUDE.md
+  - eslint.config.mjs
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - node_modules/
+  - package.json
+  - package-lock.json
+  - README.md
+  - vendor/

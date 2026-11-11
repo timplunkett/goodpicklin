@@ -1,0 +1,28 @@
+---
+title: Printable court sign
+permalink: /sign
+noindex: true
+sitemap: false
+body_class: sign
+stylesheets:
+  - /assets/sign.css
+---
+{%- comment -%}
+  A printable sign for the courts. Not linked from anywhere; open /sign and
+  print it (Letter, portrait). The QR codes are static SVGs in assets/ -- if
+  the domain or paths change, regenerate them.
+{%- endcomment -%}
+<p class="sign-help">Print this page (Letter, portrait) and post it near the paddle line.</p>
+
+<div class="sheet">
+  <p class="sign-eyebrow">Good Picklin’</p>
+  <h1>What’s your skill level?</h1>
+  <p class="sign-lede">Scan, take the 1-minute quiz, then <strong>tell your host your result</strong>.</p>
+  <img class="sign-qr" src="{{ '/assets/qr-levels.svg' | relative_url }}" alt="QR code for goodpicklin.com/levels">
+  <p class="sign-url">goodpicklin.com/levels</p>
+
+  <div class="sign-secondary">
+    <img src="{{ '/assets/qr-home.svg' | relative_url }}" alt="QR code for goodpicklin.com">
+    <p><strong>Want to play next Saturday?</strong><br>Details and sign-up at goodpicklin.com</p>
+  </div>
+</div>

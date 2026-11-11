@@ -1,0 +1,41 @@
+/* Printable court sign (/sign). */
+.sign-help { color: var(--muted); font-size: 0.9375rem; }
+
+.sheet {
+  padding: 2rem 1.5rem;
+  background: #fff;
+  color: #1d2a14;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-align: center;
+}
+.sign-eyebrow { margin: 0 0 0.25rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; color: #2f5d1e; }
+.sheet h1 { font-size: clamp(2rem, 8vw, 3.25rem); }
+.sign-lede { font-size: 1.25rem; }
+.sign-qr { display: block; width: min(80%, 22rem); height: auto; margin: 1.5rem auto 0.5rem; }
+.sign-url { font-size: 1.5rem; font-weight: 800; }
+
+.sign-secondary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 2px dashed #dcdfcf;
+  text-align: left;
+}
+.sign-secondary img { width: 6.5rem; height: auto; flex: none; }
+.sign-secondary p { margin: 0; }
+
+@media print {
+  @page { size: letter portrait; margin: 0.5in; }
+  .site-header, .site-footer, .sign-help { display: none; }
+  body { background: #fff; }
+  main.wrap { max-width: none; padding: 0; }
+  .sheet { border: 0; padding: 0; }
+  .sheet h1 { font-size: 3.5rem; }
+  .sign-lede { font-size: 1.5rem; }
+  .sign-qr { width: 4.5in; }
+  .sign-url { font-size: 2rem; }
+}

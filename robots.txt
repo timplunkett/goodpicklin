@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /sign
+
+# No `Sitemap:` line on purpose: no sitemap plugin is enabled, so pointing at
+# /sitemap.xml would advertise a 404. Add the line if one is ever turned on.
