@@ -74,3 +74,7 @@ Always use `bundle exec`. `.bundle/config` (not committed) installs gems into
 `vendor/bundle` so system Ruby doesn't need `sudo`.
 
 Lint JavaScript with `npm run lint`.
+
+## Commits
+
+- Do not include Claude session links (`Claude-Session: …`) in commit messages.
